@@ -35,8 +35,8 @@ public class TeapotMiddleware
     /// checking whether it contains any data. As a shallow research showed, this chunk should be around 21B
     /// so this shouldn't introduce a large performance overhead.
     /// </summary>
-    /// <param name="request"></param>
-    /// <returns></returns>
+    /// <param name="request">An <see cref="HttpRequest"/> from the <see cref="HttpContext"/>.</param>
+    /// <returns>True if a GET request has a body and false otherwise.</returns>
     private static async ValueTask<bool> GetRequestHasABody(HttpRequest request)
     {
         if (request.Method != HttpMethods.Get)
