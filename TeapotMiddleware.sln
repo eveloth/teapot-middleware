@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C962669C-A224-47A6-92DC-A5CA8A9472AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeapotMiddleware", "src\TeapotMiddleware\TeapotMiddleware.csproj", "{CC076393-F71B-46EE-999A-52DE71399C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{85FA3882-574C-4079-AA03-B67A47F53B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeapotMiddleware.Tests", "test\TeapotMiddleware.Tests\TeapotMiddleware.Tests.csproj", "{35896C66-7D0A-4104-A6EE-9A974E8C2EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC076393-F71B-46EE-999A-52DE71399C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC076393-F71B-46EE-999A-52DE71399C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC076393-F71B-46EE-999A-52DE71399C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC076393-F71B-46EE-999A-52DE71399C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35896C66-7D0A-4104-A6EE-9A974E8C2EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35896C66-7D0A-4104-A6EE-9A974E8C2EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35896C66-7D0A-4104-A6EE-9A974E8C2EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35896C66-7D0A-4104-A6EE-9A974E8C2EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC076393-F71B-46EE-999A-52DE71399C38} = {C962669C-A224-47A6-92DC-A5CA8A9472AD}
+		{35896C66-7D0A-4104-A6EE-9A974E8C2EFE} = {85FA3882-574C-4079-AA03-B67A47F53B9E}
+	EndGlobalSection
+EndGlobal
